@@ -1,118 +1,8 @@
 *{
     margin:0;
     padding: 0;
-    list-style-type: none;
+    font-family: Poppins, sans-serif;
 }
-
-/*importar fonte */
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
 
   .music-section {
     background-color: #01041b;
@@ -121,147 +11,176 @@
     overflow: hidden;
   }
 
- li:hover{
-    cursor: pointer;
- }
   .header {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    border: 1px solid #a39ea0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-bottom: 0.7px solid #a39ea0;
     background-color: #000;
-    padding: 62px 18px 32px 62px;
+    padding: 62px 32px 32px 62px;
     align-items: center;
   }
 
   .header-content {
     display: flex;
     align-items: flex-start;
-    gap: 40px; 
+    gap: 10px; 
     flex-wrap: wrap;
   }
 
-  .logo {
+  h1 {
     color: #fff;
     font-size: 40px;
     flex-grow: 1;
-    width: 190px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  h3{
+    font-size: 20px;
   }
 
   .logo-highlight {
     font-weight: 900;
-    color: #ff6a00;
+    color: #910303;
   }
 
-h3{
+  .btn-navbar{
+    background-color: #000;;
+    border: none;
     font-size: 20px;
-}
+    color: #ffffff;
+    cursor: pointer;  
+    font-weight: 600;  
+  }
+
+  .red{
+    color: #910303;
+  }
 
   .nav-container {
     display: flex;
     margin-top: 9px;
-    gap: 40px 100px;
+    gap: 40px ;
     font-size: 20px;
-    font-weight: 900;
     flex-wrap: wrap;
   }
-  .nav-links {
+
+  .nav-btns {
     display: flex;
     min-height: 35px;
     align-items: flex-start;
     gap: 40px 46px;
-    color: #fff;
-    white-space: nowrap;
   }
+
   .header-div {
     display: flex;
     min-height: 51px;
     align-items: flex-start;
-    gap: 40px 46px;
+    gap: 20px 26px;
+    color: #910303;
   }
+
   .help-login {
     color: #fff;
   }
-  .create-account {
-    color: #ff6a00;
+
+  .login-highlight{
+    color: #910303;
   }
+ 
   .content {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #000;
     padding: 80px 18px 0 41px;
-
   }
+
   .content-wrapper {
     display: flex;
     gap: 20px;
   }
+
   .text-column {
     width: 50%;
+    padding-right: 30px;
   }
+
   .hero-title {
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     letter-spacing: 6.2px;
-    font: 700 124px/151px Montserrat, sans-serif;
+    font: 600 110px/120px Poppins, sans-serif;
   }
+
   .hero-title-highlight {
-    color: #ff6a00;
+    color: #910303;
   }
+
   .hero-description {
     color: #fff;
     letter-spacing: 1.5px;
     margin: 26px 24px 0 0;
-    font: 700 30px/37px Montserrat, sans-serif;
+    font:  26px/32px Poppins, sans-serif;
   }
   .cta-container {
     margin-top: 86px;
-    width: 710px;
     max-width: 100%;
   }
-  .cta-buttons {
+
+  .cta-btns {
     display: flex;
     gap: 20px;
   }
-  .cta-button {
+
+  .cta-btn {
     width: 100%;
-    border-radius: 45px;
-    min-height: 101px;
+    border-radius: 20px;
     color: #fff;
-    padding: 32px 21px;
-    font-weight: 400;
+    padding: 20px 20px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
   }
-  .download-btn {
-    background-color: #f27e44;
+
+  .download-btn{
+    background-color: #910303;
   }
-  .trial-btn {
-    background-color: #ff5500;
+
+  .trial-btn{
+    background-color: #af1d1d;
   }
+
   .image-column {
     width: 50%;
   }
+
   .hero-image {
-    aspect-ratio: 1.09;
-    object-fit: contain;
+    border-radius: 50px;
     width: 100%;
   }
+  
   .footer {
     background-color: #000;
     color: #fff;
-    padding: 44px 0px 25px 0px;
+    padding: 44px 0px 44px 0px;
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
   }
-  @media (max-width: 991px) {
+
+
+
+
+  @media (max-width: 1024px) {
     .header,
-    .main-content,
+    .header-content,
     .footer {
       max-width: 100%;
       padding-left: 20px;
     }
     .content-wrapper,
-    .cta-buttons {
+    .cta-btns {
       flex-direction: column;
     }
     .text-column,
@@ -278,26 +197,16 @@ h3{
     .cta-container {
       margin-top: 40px;
     }
-    .cta-button {
+    .cta-btn {
       margin-top: 40px;
       padding: 0 20px;
     }
     .hero-image {
       margin-top: 40px;
     }
-    .nav-links {
+    .nav-btns {
       white-space: initial;
     }
   }
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-  }
+
 

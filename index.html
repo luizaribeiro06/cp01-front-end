@@ -4,62 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css">
+    <!--fonte poppins-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>CP1 - Front-End</title>
 </head>
 <body>
-      
-      <section class="music-section">
-        <header class="header">
-          <div class="header-content">
-            <h1 class="logo">
-              <span class="logo-highlight">FIAP</span> MUSIC
-            </h1>
-            <nav class="nav-container">
-              <ul class="nav-links">
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>PAGES</li>
-                <li>NEWS</li>
-                <li>CONTACT</li>
-              </ul>
-              <div class="header-div">
-                <div class="help-login">
-                  HELP <span style="color: #ff6a00">|</span> LOGIN
-                </div>
-                <h3 class="create-account">CREATE AN ACCOUNT</h3>
-              </div>
-            </nav>
+  <main class="music-section">
+    <!--header-->
+    <header class="header">
+      <section class="header-content">
+        <h1> <!--criar uma div/span para conseguir mudar a cor apenas de uma letra-->
+          <div class="logo-highlight">LUIZA</div> MUSIC
+        </h1>
+        <nav class="nav-container">
+          <div class="nav-btns">
+            <button class="btn-navbar">HOME</button>
+            <button class="btn-navbar">ABOUT</button>
+            <button class="btn-navbar">PAGES</button>
+            <button class="btn-navbar">NEWS</button>
+            <button class="btn-navbar">CONTACT</button>
           </div>
-        </header>
-      
-        <section class="content">
-          <div class="content-wrapper">
-            <div class="text-column">
-              <h2 class="hero-title">
-                <span class="hero-title-highlight">Music</span> for everyone.
-              </h2>
-              <p class="hero-description">
-                Listening to music is a rich and engaging experience that goes beyond language and culture barriers. The captivating melody, inspiring lyrics, and pulsating rhythms have the unique power to transport us and evoke deep emotions.
-              </p>
-              <div class="cta-container">
-                <div class="cta-buttons">
-                  <button class="cta-button download-btn">Download Now</button>
-                  <button class="cta-button trial-btn">Start Free Trial</button>
-                </div>
-              </div>
-            </div>
-            <div class="image-column">
-              <img src="./assets/Djonga-1.webp" alt="Imagem Djonga" class="hero-image" />
-            </div>
+          <div class="header-div">
+            <button class="btn-navbar red help-login">HELP <span class="login-highlight">|</span> LOGIN</button>
+            <button class="btn-navbar red">CREATE AN ACCOUNT</button>
           </div>
-        </main>
-    
+        </nav>
       </section>
-      <footer class="footer">
-        <h3>🚀❣️🚀 Luiza Ribeiro - 1ESPS 🚀❣️🚀</h3>
-      </footer>
+    </header>
+      
+    <!--hero section-->
+      <section class="content">
+        <div class="content-wrapper">
+          <div class="text-column">
+            <h2 class="hero-title">Your <span class="hero-title-highlight">Superman</span></h2>
+            <p class="hero-description">
+              Eminem, born Marshall Mathers III, is an iconic American rapper, songwriter, and record producer. He gained fame in the late 1990s with his breakthrough album "The Slim Shady LP," which showcased his unique style and lyrical prowess. He is known for hits like "Superman," "Stan," and "Without Me." 
+            </p>
+            <div class="cta-container">
+              <div class="cta-btns">
+                <button class="cta-btn download-btn">Download Now</button>
+                <button class="cta-btn trial-btn">Start Free Trial</button>
+              </div>
+            </div>
+          </div>
+          <div class="image-column">
+            <img src="./assets/eminem.jpg" alt="Imagem Eminem" class="hero-image" />
+          </div>
+        </div>    
+    </section>
+  </main>
+  <!--footer-->
+  <footer class="footer">
+    <h3>🚀❣️🚀 Luiza Ribeiro - 1ESPS 🚀❣️🚀</h3>
+  </footer>
 </body>
 </html>
